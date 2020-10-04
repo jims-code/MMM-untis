@@ -1,0 +1,16 @@
+.leftSpace {
+  padding-left: 20px;
+}
+
+.alignTop {
+  vertical-align: top;
+}
+
+.cancelled {
+  text-decoration: line-through;
+}
+
+.error {
+  color: red;
+  //font-weight: bold;
+}
