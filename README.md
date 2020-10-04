@@ -1,5 +1,5 @@
 
-# MMM-Webuntis-timetable
+# MMM-untis
 This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It allows to display your kids' lessons for schools using [Untis](https://www.untis.at) software to organize school's timetables. You are able to configure acccess for each of your kids.
 
 # Origin
