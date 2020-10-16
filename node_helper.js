@@ -1,5 +1,5 @@
 const NodeHelper = require("node_helper");
-const WebUntis = require("webuntis");
+const Untis = require("webuntis");
 
 module.exports = NodeHelper.create({
 	start: function() {
@@ -18,7 +18,7 @@ module.exports = NodeHelper.create({
 
 	fetchLessons: function(studentData, days) {
 
-		const untis = new WebUntis(
+		const untis = new Untis(
 			studentData.school,
 			studentData.username,
 			studentData.password,

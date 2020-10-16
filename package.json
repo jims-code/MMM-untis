@@ -1,8 +1,12 @@
 {
   "name": "mmm-untis",
-  "version": "0.01",
+  "version": "0.0.2",
   "description": "MagicMirror module to access Webunits school timetables.",
   "main": "MMM-untis.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jims-code/MMM-untis.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +16,7 @@
   ],
   "author": "Jens Höft",
   "license": "GPLv3",
+  "private": false,
   "dependencies": {
     "webuntis": "latest"
   }

@@ -1,4 +1,4 @@
-Module.register("MMM-Webuntis", {
+Module.register("MMM-untis", {
 
 	defaults: {
 		students: [
@@ -16,7 +16,7 @@ Module.register("MMM-Webuntis", {
 	},
 
 	getStyles: function () {
-  		return ["MMM-Webuntis.css"];
+  		return ["MMM-untis.css"];
   	},
 
 	getTranslations: function () {
