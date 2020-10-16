@@ -8,7 +8,7 @@ This module ist work-in-progress. It is baesd on MMM-Webuntis from thyed (https:
 # ....The following documentation needs to be rewritten...
 
 ## Installation
-1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/thyed/MMM-Webuntis.git`.
+1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/jims-code/MMM-untis.git`.
 2. Navigate into the new folder `MMM-Webuntis` and execute `npm install` to generate the node dependencies.
 
 ## Using the module
