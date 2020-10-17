@@ -1,15 +1,27 @@
 
 # MMM-untis
 This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It allows to display your kids' lessons for schools using [Untis](https://www.untis.at) software to organize school's timetables. You are able to configure acccess for each of your kids.
-
-# Origin
-This module ist work-in-progress. It is baesd on MMM-Webuntis from thyed (https://github.com/thyed/MMM-Webuntis). THANK YOU SO MUCH FOR YOUR WORK - I AM SO HAPPY THAT I CAN START DEVELOPING ON THIS BASE!
+This module ist work-in-progress. 
 
 # ....The following documentation needs to be rewritten...
 
 ## Installation
-1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/jims-code/MMM-untis.git`.
-2. Navigate into the new folder `MMM-Webuntis` and execute `npm install` to generate the node dependencies.
+1. Navigate into your MagicMirror's `modules` folder. Example:
+```Shell
+cd ~/MagicMirror/modules
+```
+2. Donload MMM-untis module
+```Shell
+git clone https://github.com/jims-code/MMM-untis.git
+```
+3. Navigate into the MMM-untis Folder
+```Shell
+cd MMM-untis
+```
+4. Install dependencies
+```Shell
+npm install
+```
 
 ## Using the module
 
@@ -120,5 +132,5 @@ This module may be useful for students at schools using Untis for the organizati
 ![Screenshot](screenshot.png "Screenshot")
 
 ## Attribution
-
-This project is based on work done by Paul-Vincent Roll in the MMM-Wunderlist module. (https://github.com/paviro/MMM-Wunderlist)
+It is baesd on [MMM-Webuntis from thyed](https://github.com/thyed/MMM-Webuntis). THANK YOU SO MUCH FOR YOUR WORK - I AM SO HAPPY THAT I CAN START DEVELOPING ON THIS BASE! 
+MMM-Webuntis is based on work done by Paul-Vincent Roll in the MMM-Wunderlist module. (https://github.com/paviro/MMM-Wunderlist)
