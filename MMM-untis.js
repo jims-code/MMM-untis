@@ -47,12 +47,21 @@ Module.register("MMM-untis", {
 		// iterate through students
 		// TODO: for..in does not guarantee specific order
 		for (let studentTitle in this.lessonsByStudent) {
+			
 			//for (const [studentTitle, lessons] of this.lessonsByStudent.entries()) {
 
 			var lessons = this.lessonsByStudent[studentTitle];
 
 			// sort lessons by start time
 			lessons.sort((a,b) => a.sortString - b.sortString);
+			
+			// Headline for Student
+			var titleCell = document.createElement("td");
+			titleCell.innerHTML = studentTitle;
+			titleCell.className = "align-right alignTop";
+			row.appendChild(titleCell);
+			row.appeddChild("")
+			row.appeddChild("")
 
 			// iterate through lessons of current student
 			for (let i = 0; i < lessons.length; i++) {
